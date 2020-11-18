@@ -15,7 +15,9 @@ Once started, the master will print out a spark://HOST:PORT URL for itself, whic
 Similarly, you can start one or more workers and connect them to the master via:
 
 ./sbin/start-slave.sh <master-spark-URL>
-  
+Ex:
+./sbin/start-slave.sh spark://127.0.0.1:7077  
+
 # Submit app
 https://spark.apache.org/docs/3.0.0/submitting-applications.html
 
