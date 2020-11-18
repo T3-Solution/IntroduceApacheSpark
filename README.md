@@ -15,7 +15,7 @@ Similarly, you can start one or more workers and connect them to the master via:
 
 ./sbin/start-slave.sh <master-spark-URL>
   
-#Submit app
+# Submit app
 https://spark.apache.org/docs/3.0.0/submitting-applications.html
 
 * Run application locally on 8 cores
